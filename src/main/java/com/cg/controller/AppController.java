@@ -11,4 +11,9 @@ public class AppController {
 		return "Checked successfully";
 	}
 
+	@GetMapping("/check2")
+	public String checkMethod2() {
+		return "Checked two successfully";
+	}
+
 }
